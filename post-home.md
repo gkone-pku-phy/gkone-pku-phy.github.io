@@ -1,5 +1,7 @@
 # 发布的文章
 
 1.[数学物理方程的解](./htmls/mathphysics-equations.html)
+
 2.[幻灯片测试](./htmls/test.html)
-3.[循环矩阵的根](./markdown/frouier%20matrix%2Cn-unitary-root.md)
+
+3.[循环矩阵的根](./htmls/frouier%20matrix%2Cn-unitary-root.html)
