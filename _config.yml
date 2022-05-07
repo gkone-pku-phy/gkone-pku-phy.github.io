@@ -1,3 +1,5 @@
 theme: jekyll-theme-architect
 title: Life is physics的个人空间...
 description: 内有好文，要不要来看看？
+include: 
+  - /_posts
