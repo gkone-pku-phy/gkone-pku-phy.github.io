@@ -6,4 +6,7 @@
 
 在这个网站中，我将不定期发布新学到的各种杂七杂八的东西。这些东西可能是一些有趣的物理问题，可能是令人头秃的数学概念，也可能是有用的小程序。如果这段描述引起了你的兴趣，欢迎你不定期地来转转哦！
 
-[123](./_posts/newpassage.md)
+[123](./_posts/2022-05-07-newpassage.md)
+[a slide](./slide.html)
+[test](./test.html)
+[equations](./htmls/2022-05-07-mathphysics.html)
