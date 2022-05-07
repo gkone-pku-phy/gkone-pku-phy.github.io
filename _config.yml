@@ -3,11 +3,11 @@ title: 标题
 author: 作者
 email: 951749288@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  Life is phyics的 personal blog 
+  Life is phyics的Blog
 
 # Site URL NOTE: if your site is base on subdir /blog you should change base to "/blog"
-domain: "http://yourdomain.github.io" # the domain URL for your site
-base: ""  # the relative path that different with domain so you can test locally
+domain: "http://gkone-pku-phy.github.io" # the domain URL for your site
+base: "/blog"  # the relative path that different with domain so you can test locally
 
 # Source URL NOTE: end with / cause it's [URL + FILE]
 w3c_url: "/w3c/"  # the base url of css js and images
@@ -19,10 +19,10 @@ sitefile: "/db/Sitefile" # the Database
 page_size: 3
 
 # comment settings
-duoshuo_short_name: "sbys" # the user of user.domain.com
-duoshuo_user_uid: "6324572809590735618" # the admin user uid
-duoshuo_user_name: "xk" # the admin user name
-duoshuo_max_depth: "2"  # the max_depth setting in duoshuo comments
+# duoshuo_short_name: "sbys" # the user of user.domain.com
+# duoshuo_user_uid: "6324572809590735618" # the admin user uid
+# duoshuo_user_name: "xk" # the admin user name
+# duoshuo_max_depth: "2"  # the max_depth setting in duoshuo comments
 
 # 3rd URL
 duoshuo_url: "/w3c/duoshuo/embed.min.js" # the local duoshuo comment plugin, you can change it to remote "http://static.duoshuo.com/"
