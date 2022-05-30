@@ -5,3 +5,5 @@
 2.[幻灯片测试](./htmls/test.html)
 
 3.[循环矩阵的根](./htmls/frouier%20matrix%2Cn-unitary-root.html)
+
+4.[非线性谐振子](./project-mathphy/ppt.html)
