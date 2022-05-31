@@ -128,18 +128,18 @@ $$
 $$
 左侧为傅里叶展开式，右边是零，由$e^{in\omega t}$的完备性知，左侧各项系数为0：
 $$
--n^2\omega^2 f_n+\omega_0^2f_n +A(f*f)_n+B(f*f*f)_n+\cdots=0\qquad \forall n=0,\pm 1,\pm 2,\cdots
+-n^2\omega^2 f_n+\omega_0^2f_n +A(f*f)_n+B(f*f*f)_n+\cdots=0\qquad  n=0,\pm 1,\pm 2,\cdots
 $$
 $
 -n^2(\omega_0 +\omega_1 +\omega_2 +\cdots)^2 (f_n^{(0)}+f_n^{(1)}+f_n^{(2)}+\cdots)+\omega_0^2 ( f_n^{(0)}+f_n^{(1)}+f_n^{(2)}+\cdots)+A\sum_{n=-\infty}^{\infty} (f^{(0)}+f^{(1)}+f^{(2)}+\cdots)*(f^{(0)}+f^{(1)}+f^{(2)}+\cdots)_n+\cdots=0
 $
 将上式按大小阶数展开，相同阶数和为零，得到方程：
 $
-\text{第零阶:}\quad(-n^2+1)\omega_0^2 f_n^{(0)}=0,\forall n=0,\pm 1,\pm 2,\cdots
+\text{第零阶:}\quad(-n^2+1)\omega_0^2 f_n^{(0)}=0, n=0,\pm 1,\pm 2,\cdots
 $
 
 $
-\text{第一阶:}\quad A(f^{(0)}*f^{(0)})_n +\omega_0^2f_n^{(1)}-2n^2 \omega_0 \omega_1 f_n^{(0)}-n^2 \omega_0 f_n^{(1)}=0,\forall n=0,\pm 1,\pm 2,\cdots
+\text{第一阶:}\quad A(f^{(0)}*f^{(0)})_n +\omega_0^2f_n^{(1)}-2n^2 \omega_0 \omega_1 f_n^{(0)}-n^2 \omega_0 f_n^{(1)}=0, n=0,\pm 1,\pm 2,\cdots
 $
 
 }
@@ -168,7 +168,7 @@ $$
 ### 第一阶 {.thm}
 \content[]{
 $$
-\quad A(f^{(0)}*f^{(0)})_n +\omega_0^2f_n^{(1)}-2n^2 \omega_0 \omega_1 f_n^{(0)}-n^2 \omega_0 f_n^{(1)}=0,\forall n=0,\pm 1,\pm 2,\cdots
+\quad A(f^{(0)}*f^{(0)})_n +\omega_0^2f_n^{(1)}-2n^2 \omega_0 \omega_1 f_n^{(0)}-n^2 \omega_0 f_n^{(1)}=0, n=0,\pm 1,\pm 2,\cdots
 $$
 
 第一阶中含有$f_n^{(1)},\omega_1$两个未知量。
