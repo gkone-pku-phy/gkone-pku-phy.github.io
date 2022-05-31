@@ -70,8 +70,8 @@ h_{-3}&=\sum_{n=-\infty}^{\infty} g_n^{(0)}f_{-3-n}^{(0)} =\overline{a}^3\\
 h_{\pm 1}&= 3a^2 \overline{a},3a\overline{a}^2\\
 \end{align*}
 $$
-![pic](./pics/3.png)
 }
+![pic](./pics/3.png)
 <!-- slide -->
 卷积计算可以不断地进行下去：
 ![pic](./pics/4.png)
