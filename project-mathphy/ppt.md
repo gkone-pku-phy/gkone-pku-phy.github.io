@@ -128,18 +128,18 @@ $$
 $$
 左侧为傅里叶展开式，右边是零，由$e^{in\omega t}$的完备性知，左侧各项系数为0：
 $$
--n^2\omega^2 f_n+\omega_0^2f_n +A(f*f)_n+B(f*f*f)_n+\cdots=0\qquad \forall n
+-n^2\omega^2 f_n+\omega_0^2f_n +A(f*f)_n+B(f*f*f)_n+\cdots=0\qquad \forall n=0,\pm 1,\pm 2,\cdots
 $$
 $
 -n^2(\omega_0 +\omega_1 +\omega_2 +\cdots)^2 (f_n^{(0)}+f_n^{(1)}+f_n^{(2)}+\cdots)+\omega_0^2 ( f_n^{(0)}+f_n^{(1)}+f_n^{(2)}+\cdots)+A\sum_{n=-\infty}^{\infty} (f^{(0)}+f^{(1)}+f^{(2)}+\cdots)*(f^{(0)}+f^{(1)}+f^{(2)}+\cdots)_n+\cdots=0
 $
 将上式按大小阶数展开，相同阶数和为零，得到方程：
 $
-\text{第零阶:}\quad(-n^2+1)\omega_0^2 f_n^{(0)}=0,\forall n
+\text{第零阶:}\quad(-n^2+1)\omega_0^2 f_n^{(0)}=0,\forall n=0,\pm 1,\pm 2,\cdots
 $
 
 $
-\text{第一阶:}\quad A(f^{(0)}*f^{(0)})_n +\omega_0^2f_n^{(1)}-2n^2 \omega_0 \omega_1 f_n^{(0)}-n^2 \omega_0 f_n^{(1)}=0,\forall n
+\text{第一阶:}\quad A(f^{(0)}*f^{(0)})_n +\omega_0^2f_n^{(1)}-2n^2 \omega_0 \omega_1 f_n^{(0)}-n^2 \omega_0 f_n^{(1)}=0,\forall n=0,\pm 1,\pm 2,\cdots
 $
 
 }
@@ -168,7 +168,7 @@ $$
 ### 第一阶 {.thm}
 \content[]{
 $$
-\quad A(f^{(0)}*f^{(0)})_n +\omega_0^2f_n^{(1)}-2n^2 \omega_0 \omega_1 f_n^{(0)}-n^2 \omega_0 f_n^{(1)}=0,\forall n
+\quad A(f^{(0)}*f^{(0)})_n +\omega_0^2f_n^{(1)}-2n^2 \omega_0 \omega_1 f_n^{(0)}-n^2 \omega_0 f_n^{(1)}=0,\forall n=0,\pm 1,\pm 2,\cdots
 $$
 
 第一阶中含有$f_n^{(1)},\omega_1$两个未知量。
@@ -177,13 +177,17 @@ $$
 A(f^{(0)}*f^{(0)})_{\pm 1} -2\omega_0 \omega_1 f_{\pm 1}^{(0)}=0\\
 \omega_1 = \f{A(f^{(0)}*f^{(0)})_{\pm 1}}{2\omega_0 f_{\pm 1}^{0}}
 $$
-经过计算知道$\omega_1=0$
-当$n\ne \pm 1$时，代入$\omega_1=0$可以计算各个$f_n^{(1)}$的值：
+经过计算知道$\omega_1=0$.当$n\ne \pm 1$时，代入$\omega_1=0$可以计算各个$f_n^{(1)}$的值：
 $$
 f_n^{(1)}=\f{A(f^{(0)}*f^{(0)})_n}{(n^2-1)\omega_0^2}\qquad (n\ne \pm 1)
 $$
 看起来我们无法计算$f_{\pm 1}^{(1)}$的值，但因为第零阶中的$a$是人为规定的，故可以包含高阶下$n=\pm 1$的微扰（相当于假设振动基频的振幅就是$a,\overline{a}$）
 因此我们不妨设$f_{\pm 1}^{(1)}=0$
+$$
+f_0^{(1)}=- \frac{2 A_{1} a \overline{a}}{\omega_{0}^{2}},
+f_{-2}^{(1)}=\frac{A_{1} \overline{a}^{2}}{3 \omega_{0}^{2}},
+f_2^{(1)}=\frac{A_{1} a^{2}}{3 \omega_{0}^{2}}
+$$
 }
 
 <!-- slide -->
