@@ -71,7 +71,9 @@ h_{\pm 1}&= 3a^2 \overline{a},3a\overline{a}^2\\
 \end{align*}
 $$
 }
+
 ![pic](./pics/3.png)
+
 <!-- slide -->
 卷积计算可以不断地进行下去：
 ![pic](./pics/4.png)
